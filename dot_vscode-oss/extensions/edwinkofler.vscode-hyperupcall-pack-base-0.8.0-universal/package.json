@@ -1,0 +1,72 @@
+{
+	"name": "vscode-hyperupcall-pack-base",
+	"displayName": "Edwin's Pack: Base",
+	"description": "Includes things like EditorConfig, Error Lens, etc.",
+	"version": "0.8.0",
+	"publisher": "EdwinKofler",
+	"icon": "assets/icon.png",
+	"license": "MPL-2.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/fox-land/vscode-hyperupcall-packs"
+	},
+	"bugs": {
+		"url": "https://github.com/fox-land/vscode-hyperupcall-packs/issues"
+	},
+	"author": {
+		"name": "Edwin Kofler",
+		"url": "https://edwinkofler.com"
+	},
+	"engines": {
+		"vscode": "^1.58.0"
+	},
+	"categories": [
+		"Extension Packs"
+	],
+	"extensionPack": [
+		"EditorConfig.EditorConfig",
+		"usernamehw.errorlens",
+		"christian-kohler.path-intellisense",
+		"naumovs.color-highlight",
+		"streetsidesoftware.code-spell-checker",
+		"eamodio.gitlens",
+		"donjayamanne.githistory",
+		"waderyan.gitblame",
+		"Gruntfuggly.todo-tree",
+		"alefragnani.Bookmarks",
+		"ms-azuretools.vscode-docker",
+		"GitHub.copilot",
+		"GitHub.vscode-github-actions",
+		"GitHub.vscode-pull-request-github",
+		"LeonardSSH.vscord",
+		"bierner.color-info",
+		"bierner.docs-view",
+		"bierner.markdown-shiki",
+		"stackbreak.comment-divider",
+		"aaron-bond.better-comments",
+		"EdwinKofler.vscode-hyperupcall",
+		"redhat.vscode-yaml",
+		"redhat.vscode-xml",
+		"DotJoshJohnson.xml",
+		"tamasfe.even-better-toml",
+		"SimonSiefke.svg-preview",
+		"EdwinKofler.vscode-assorted-languages",
+		"ritwickdey.LiveServer",
+		"adpyke.codesnap",
+		"ms-vscode-remote.remote-ssh",
+		"ms-vscode-remote.remote-ssh-edit",
+		"ms-vscode.remote-explorer",
+		"ms-vscode-remote.remote-containers",
+		"ms-vsliveshare.vsliveshare"
+	],
+	"__metadata": {
+		"id": "269107c9-e28c-4624-bcb6-89bda6f8b2e2",
+		"publisherId": "5435e65a-aee0-4be7-9696-5e63844160ac",
+		"publisherDisplayName": "EdwinKofler",
+		"targetPlatform": "universal",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1692691840717,
+		"preRelease": false
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"comments": {
+		"blockComment": ["<%#", "%>", "<%/*", "*/%>", "<?#", "?>", "<?/*", "*/?>"]
+	},
+	"brackets": [
+		["<!--", "-->"],
+		["<", ">"],
+		["{", "}"],
+		["[", "]"],
+		["(", ")"]
+	],
+	"autoClosingPairs": [
+		{ "open": "{", "close": "}" },
+		{ "open": "[", "close": "]" },
+		{ "open": "(", "close": ")" },
+		{ "open": "'", "close": "'" },
+		{ "open": "\"", "close": "\"" },
+		{ "open": "`", "close": "`", "notIn": ["string", "comment"] },
+		{ "open": "/*", "close": " */", "notIn": ["string"] },
+		{ "open": "/**", "close": " */", "notIn": ["string"] },
+		{ "open": "<!--", "close": "-->", "notIn": ["comment", "string"] },
+		{ "open": "<%", "close": "%>" }
+	],
+	"surroundingPairs": [
+		["<", ">"],
+		["{", "}"],
+		["[", "]"],
+		["(", ")"],
+		["'", "'"],
+		["\"", "\""],
+		["`", "`"]
+	],
+	"folding": {
+		"markers": {
+			"start": "^\\s*(?:<[%?][_-#]?(?:\\s*#)?region\\b.*[_-#]?[%?]>|<!--\\s*#region\\b.*-->)",
+			"end": "^\\s*(?:<[%?][_-#]?(?:\\s*#)?endregion\\b.*[_-#]?[%?]>|<!--\\s*#endregion\\b.*-->)"
+		}
+	}
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+		<Metadata>
+			<Identity Language="en-US" Id="vscode-assorted-languages" Version="0.24.0" Publisher="EdwinKofler" />
+			<DisplayName>Assorted Languages</DisplayName>
+			<Description xml:space="preserve">Syntax Highlighting for an assortment of languages</Description>
+			<Tags>asl,ASL,__ext_asl,__ext_dsl,asm-intel-x86-generic,x86 and x86_64 Assembly,__ext_asm,__ext_nasm,__ext_yasm,__ext_inc,__ext_s,m4,autoconf m4,m4sh,__ext_configureac,__ext_configurein,__ext_m4,automake,Automake,__ext_am,__ext_aminc,__ext_Makefilein,awk,AWK,__ext_awk,__ext_gawk,__ext_mawk,bats,Bats (Bash Automated Testing System),Bats,BATS,__ext_bats,cisco,Cisco,__ext_ios,desktop,Desktop,__ext_desktop,__ext_theme,dircolors,dir_colors,__ext_dircolors,__ext_dir_colors,dsdl,DSDL,__ext_uavcan,edk2_dsc,__ext_dsc,edk2_dec,__ext_dec,edk2_fdf,__ext_fdf,edk2_inf,__ext_inf,edk2_uni,__ext_uni,edk2_vfr,__ext_vfr,__ext_Vfr,__ext_hfr,env,Environment Variables,dotenv,__ext_env,__ext_envsample,__ext_envexample,__ext_envdevelopment,__ext_envstaging,__ext_envproduction,__ext_envlocal,expect,Expect,__ext_exp,__ext_expect,flatbuffers,Flatbuffers,Flatbuffers Schema,fbs,idl,__ext_fbs,__ext_idl,gnuplot,Gnuplot,__ext_gp,__ext_gnuplot,__ext_gnu,__ext_plot,__ext_plt,haml,Ruby Haml,Haml,__ext_haml,handlebars,Handlebars,__ext_handlebars,__ext_hbr,__ext_hbs,__ext_tpl,hla,High Level Assembly,__ext_hla,__ext_hhf,i3,i3_config,__ext_i3config,ignore,Ignore File (gitignore syntax),__ext_cvsignore,__ext_bzrignore,__ext_gitignore,__ext_hgignore,__ext_npmignore,__ext_earthlyignore,__ext_dockerignore,__ext_containerignore,__ext_atomignore,__ext_vscodeignore,__ext_coffeelintignore,__ext_jshintignore,__ext_tslintignore,__ext_eslintignore,__ext_prettierignore,__ext_stylelintignore,__ext_markdownlintignore,__ext_gcloudignore,__ext_artifactignore,ignore-slug,Ignore File for Slug compiler,__ext_slugignore,ignore-hgignore,Ignore File for Mecurial,ignore-hg,infokey,__ext_infokey,inputrc,__ext_inputrc,io,__ext_io,jq,__ext_jq,json5,JSON5,__ext_json5,jsonl,JSON Lines,JSONL,__ext_jsonl,linkerscript,__ext_ld,__ext_dld,__ext_lds,__ext_x,logfile,log,__ext_log,logstash,Logstash,m3u,M3U,m3u8,M3U8,__ext_m3u,__ext_m3u8,mapfile,Linker Map file,__ext_map,ninja,Ninja,__ext_ninja,nix,__ext_nix,odin,Odin,__ext_odin,po,gettext,__ext_po,__ext_pot,__ext_potx,proto3,Protocol Buffers,__ext_proto,project.pbxproj,Project.pbxproj,__ext_pbxproj,textproto,Protocol Buffer Text Format,Textual Protobuf,pbtxt,prototxt,__ext_pbtxt,__ext_prototxt,__ext_textproto,qlik,QlikView,__ext_qvs,hlsl,__ext_sf,stylus,Stylus,__ext_styl,__ext_stylus,sxhkdrc,__ext_sxhkdrcconf,systemd-conf,Systemd Configuration,systemd-unit-file,__ext_link,__ext_netdev,__ext_network,__ext_service,__ext_socket,__ext_device,__ext_mount,__ext_automount,__ext_swap,__ext_target,__ext_path,__ext_timer,__ext_snapshot,__ext_slice,__ext_scope,t4,T4 Text Template,tt,__ext_t4,__ext_tt,__ext_ttinclude,terminfo,termcap,__ext_termcap,__ext_src,thrift,__ext_thrift,typoscript,TypoScript,__ext_typoscript,tsconfig,TsConfig,__ext_tsconfig,vcard,vCard,vcf,__ext_vcard,__ext_vcf,xdefaults,Xdefaults,__ext_Xresources,__ext_xresources,__ext_Xdefaults,__ext_xdefaults,yarnlock,yarn.lock,__ext_yarnlock,zone,Bind9 DNS Zone,__ext_zone,__ext_signed,__ext_db,__ext_dns,ruby,__web_extension</Tags>
+			<Categories>Programming Languages</Categories>
+			<GalleryFlags>Public</GalleryFlags>
+			
+			<Properties>
+				<Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.54.0" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionKind" Value="ui,workspace,web" />
+				<Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
+				
+				
+				<Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/hyperupcall/vscode-assorted-languages.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/hyperupcall/vscode-assorted-languages.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/hyperupcall/vscode-assorted-languages.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/hyperupcall/vscode-assorted-languages/issues" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://github.com/hyperupcall/vscode-assorted-languages#readme" />
+				
+				
+				<Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+				<Property Id="Microsoft.VisualStudio.Services.Content.Pricing" Value="Free"/>
+
+				
+				
+			</Properties>
+			<License>extension/LICENSE.txt</License>
+			<Icon>extension/assets/icon.png</Icon>
+		</Metadata>
+		<Installation>
+			<InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+		</Installation>
+		<Dependencies/>
+		<Assets>
+			<Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+			<Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Content.License" Path="extension/LICENSE.txt" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/assets/icon.png" Addressable="true" />
+		</Assets>
+	</PackageManifest>

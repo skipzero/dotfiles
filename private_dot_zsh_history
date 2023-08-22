@@ -1,0 +1,491 @@
+: 1691898075:0;brew install mas
+: 1691898075:0;brew install whalebrew
+: 1691898075:0;la
+: 1691898075:0;la Downloads
+: 1691898075:0;mv Downloads/Brewfile ./
+: 1691898075:0;brew bundle
+: 1691898075:0;cat Brewfile
+: 1691898075:0;brew search roboto
+: 1691898075:0;brew install font-roboto-mono
+: 1691898075:0;nano Brewfile
+: 1691898075:0;cat Brewfile
+: 1691898075:0;rm /Applications/Atom.app
+: 1691898075:0;rm -r  /Applications/Atom.app
+: 1691898075:0;brew install libavif
+: 1691898075:0;whalebrew search
+: 1691898075:0;whalebrew search iterm2
+: 1691898075:0;la /Applications
+: 1691898075:0;brew search vs
+: 1691898075:0;brew install vscodium
+: 1691898075:0;code
+: 1691898075:0;open vscodium
+: 1691898075:0;open /Applications/vscodium
+: 1691898075:0;open /Applications
+: 1691898075:0;nano .zshrc
+: 1691898075:0;zsh
+: 1691898075:0;nslookup
+: 1691898075:0;code
+: 1691898075:0;codium
+: 1691898075:0;la
+: 1691898075:0;la Restore
+: 1691898075:0;la Restore/Users/raven/Projects
+: 1691898075:0;la
+: 1691898075:0;la Documents
+: 1691898075:0;mv Restore/Users/raven/Projects ./
+: 1691898075:0;la
+: 1691898075:0;la Restore/MobileSoftwareUpdate
+: 1691898075:0;la Restore/Users/raven
+: 1691898075:0;Projects
+: 1691898075:0;la
+: 1691898075:0;la xxx
+: 1691898075:0;la xxx/app
+: 1691898075:0;gcl https://github.com/DubsFan/vofo.git
+: 1691898075:0;brew search github
+: 1691898075:0;brew info github
+: 1691898075:0;brew install gh
+: 1691898075:0;gh
+: 1691898075:0;gh auth
+: 1691898075:0;gh auth login
+: 1691898075:0;gcl https://github.com/DubsFan/vofo.git
+: 1691898075:0;vofo
+: 1691898075:0;la
+: 1691898075:0;np i
+: 1691898075:0;npm i
+: 1691898075:0;la
+: 1691898075:0;npm run dev
+: 1691898075:0;Projects/vofo
+: 1691898075:0;zsh
+: 1691898075:0;code
+: 1691898075:0;nano ~/.zshrc
+: 1691898075:0;gco test-branch
+: 1691898075:0;gl
+: 1691898075:0;code .
+: 1691898075:0;zsh
+: 1691898075:0;code .
+: 1691898075:0;g config -g user.name = skipzero
+: 1691898075:0;git config user.name 'skipzero'
+: 1691898075:0;git config user.email 'skip@zerosquadron.com'
+: 1691898075:0;ssh lazarus@lazaruss-mbp.attlocal.net
+: 1691898075:0;ssh lazarus@lazarus.attlocal.net
+: 1691898075:0;npm install dotenv
+: 1691898075:0;npmS dotenv
+: 1691898075:0;npm --save install dotenv
+: 1691898075:0;cat package.json
+: 1691898075:0;exit
+: 1691898075:0;npm -s dotenv
+: 1691898075:0;npm -s i dotenv
+: 1691898075:0;cat package.json
+: 1691898075:0;/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+: 1691898075:0;chsh zsh
+: 1691898075:0;which zsh
+: 1691898075:0;chsh /bin/zsh
+: 1691898075:0;chsh larazus
+: 1691898075:0;man chsh
+: 1691898075:0;sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\
+
+: 1691828544:0;npx amplify-app
+: 1691828647:0;amplify -y init
+: 1691828664:0;amplify init -y
+: 1691828711:0;amplify add api
+: 1691828891:0;la
+: 1691828904:0;la amplify
+: 1691828924:0;cat amplify/cli.json
+: 1691828992:0;cat amplify/README.md
+: 1691829115:0;amplify push
+: 1691829249:0;amplify pull
+: 1691831942:0;amplify
+: 1691831952:0;amplify -h
+: 1691831977:0;amplify configure
+: 1691835486:0;gst
+: 1691835520:0;la ../amplify-backup
+: 1691835544:0;la ../amplify-backup/.config
+: 1691835568:0;cat ../amplify-backup/.config/local-aws-info.json
+: 1691835599:0;cat ../amplify-backup/.config/local-env-info.json
+: 1691835616:0;cat ../amplify-backup/.config/project-config.json
+: 1691835646:0;gaa
+: 1691835733:0;gcmsg 'added some amplifier cli config stuff'
+: 1691835738:0;gp
+: 1691836203:0;ping 135.180.211.214
+: 1691836223:0;ifconfig
+: 1691836942:0;..
+: 1691836944:0;la
+: 1691836964:0;invoice-app
+: 1691836966:0;la
+: 1691836978:0;npm run dev
+: 1691836989:0;cat package.json
+: 1691837005:0;npm start
+: 1691837380:0;code .
+: 1691837502:0;zshconfig
+: 1691837512:0;zshconfigure
+: 1691837537:0;code ~/.zshrc
+: 1691838329:0;brew update 
+: 1691838369:0;brew untap homebrew/core
+: 1691838387:0;brew untap homebrew/cask
+: 1691838428:0;brew info apidog
+: 1691838964:0;brew install antigen
+: 1691845040:0;mv -r ~/Restore/Users/raven/.ssh ~/
+: 1691845058:0;mv ~/Restore/Users/raven/.ssh ~/
+: 1691845108:0;rm -rf ~/.ssh
+: 1691845113:0;mv ~/Restore/Users/raven/.ssh ~/
+: 1691845132:0;la ~/.ssh
+: 1691897510:0;mv ~/.zshrc ~/.old-zshrc
+: 1691897514:0;la ~
+: 1691897552:0;mv ~/Restore/Users/raven/.zshrc ~/.zshrc
+: 1691897556:0;la ~
+: 1691898128:0;brew list
+: 1691898152:0;la ~
+: 1691898170:0;la ~/.nvm
+: 1691898179:0;nvm
+: 1691898192:0;brew reinstall nvm
+: 1691898285:0;code ~
+: 1691922669:1566;amplify configure
+: 1691924245:0;brew search aws
+: 1691924325:0;brew info awscli
+: 1691924368:0;brew install awscli
+: 1691924420:0;aws
+: 1691924438:0;aws help
+: 1691924561:0;aws apigateway
+: 1691924574:0;aws apigateway help
+: 1691925804:0;amplify configure
+: 1691932361:0;../invo
+: 1691932368:0;../invoice-app/
+: 1691932393:0;nano ~/.zshrc
+: 1691932491:0;echo $NVM_DIR
+: 1691932627:0;la ~/.nvm
+: 1691932649:0;la /
+: 1691932666:0;la /usr
+: 1691932681:0;la /usr/standalone
+: 1691932702:0;which brew
+: 1691932716:0;la /usr/local
+: 1691932728:0;la /usr/local/Cellar
+: 1691932758:0;la /usr/local/Cellar/nvm
+: 1691932776:0;la /usr/local/Cellar/nvm/0.39.4/
+: 1691932848:0;cp /usr/local/Cellar/nvm/0.39.4/nvm.sh ~/.nvm
+: 1691932863:0;la ~/.nvm
+: 1691932901:0;zsh
+: 1691932936:0;la ~/
+: 1691933011:0;mv .zshrc-11
+: 1691933049:0;mv ~/.zshrc ~/..zshrc-11
+: 1691933072:0;mv ~/.old-zshrc ~/.zshrc
+: 1691933078:0;la ~
+: 1691951028:0;npm start
+: 1691951073:0;code .
+: 1691951079:0;npm start
+: 1691968859:0;zsh
+: 1691972572:0;la
+: 1691972582:0;src/components/pdf
+: 1691972617:0;npmS pdfmake
+: 1691972630:0;la
+: 1691972675:0;touch index.js
+: 1691974132:0;npm uninstall pdfmake
+: 1691974153:0;..
+: 1691974160:0;rm -r pdf
+: 1691974165:0;la
+: 1691991931:0;...
+: 1691991935:0;code .
+: 1691992202:0;gst
+: 1691992218:0;gstash
+: 1691992221:0;g stash
+: 1691992226:0;gl
+: 1691992751:0;npm start
+: 1691999915:0;~/.oh-my-zsh
+: 1691999916:0;la
+: 1691999925:0;cat README.md
+: 1692000171:0;la
+: 1692000182:0;plugin
+: 1692000207:0;plugins
+: 1692000212:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git\
+
+: 1692000217:0;la
+: 1692000242:0;nano ~/.zshrc
+: 1692000583:0;brew search antigen
+: 1692000629:0;antigen
+: 1692000637:0;brew -h
+: 1692000654:0;brew list
+: 1692000676:0;brew where
+: 1692000684:0;brew list
+: 1692000697:0;brew ---help
+: 1692000703:0;brew --help
+: 1692000739:0;brew commands
+: 1692000800:0;brew casks
+: 1692000986:0;brew casks help
+: 1692000991:0;brew casks --help
+: 1692001009:0;brew commands
+: 1692001069:0;which python
+: 1692001081:0;pyenv
+: 1692001102:0;pyenv install 3
+: 1692001246:0;la ...
+: 1692001282:0;brew reinstall antigen
+: 1692001564:0;zsh
+: 1692002072:0;git clone https://github.com/powerline/fonts.git
+: 1692002081:0;fonts
+: 1692002089:0;install.sh
+: 1692002096:0;./install.sh
+: 1692002102:0;..
+: 1692002113:0;rm -rf fonts
+: 1692002138:0;la /Users/lazarus/Library
+: 1692002164:0;la /Users/lazarus/Library/Fonts
+: 1692002283:0;git clone https://github.com/mbadolato/iTerm2-Color-Schemes
+: 1692002363:0;mv ./iTerm2-Color-Schemes ~/
+: 1692002418:0;~
+: 1692002895:0;la iTerm2-Color-Schemes
+: 1692002931:0;la iTerm2-Color-Schemes/backgrounds
+: 1692002947:0;open iTerm2-Color-Schemes/backgrounds/solarized_darcula.jpg
+: 1692002986:0;la iTerm2-Color-Schemes/tools
+: 1692003005:0;cat iTerm2-Color-Schemes/README.md
+: 1692003031:0;code iTerm2-Color-Schemes/README.md
+: 1692003698:0;la ~/iTerm2-Color-Schemes/vscode
+: 1692045140:0;~/Projects/vofo
+: 1692045151:0;amplify configure
+: 1692045671:0;amplify add api
+: 1692045705:0;amplify upgrade
+: 1692045798:0;amplify init
+: 1692045927:0;amplify list
+: 1692045955:0;amplify status
+: 1692045975:0;nano ~/.zshrc
+: 1692046014:0;source zsh
+: 1692046025:0;sh
+: 1692046043:0;zsh
+: 1692046056:0;amp add api
+: 1692046218:0;amp push
+: 1692064913:0;code .
+: 1692064976:0;Projects/vofo
+: 1692064983:0;npm run dev
+: 1692067972:0;npm ci -h
+: 1692068004:0;npm help ci
+: 1692068168:0;amplify status
+: 1692068198:0;amp status
+: 1692069161:0;npm run dev
+: 1692069309:0;gco -b newApiIdea
+: 1692069317:0;gpsup
+: 1692069324:0;gaa
+: 1692069347:0;gst
+: 1692069379:0;gcmsg 'I cant believe I didnt think of this already... SM'
+: 1692069382:0;gp
+: 1692093328:0;amp add api
+: 1692093347:0;amp init
+: 1692093449:0;amp add api
+: 1692093636:0;amp push
+: 1692093812:0;code amplify/backend/function/mylambda/src/index.js.
+: 1692094148:0;amp push
+: 1692130738:0;amplify pull --appId d34a6r5i2myb6h --envName dev
+: 1692151371:0;amp -h
+: 1692151421:0;amp status
+: 1692151447:0;amp env
+: 1692151623:0;amp api
+: 1692151633:0;amp pull
+: 1692151661:0;amp -h
+: 1692151755:0;amp status
+: 1692152970:0;amplify pull --appId d13lqvuq7cao32 --envName dev
+: 1692153193:0;gst
+: 1692153203:0;gaa
+: 1692153220:0;gcmsg 'adding api backend code'
+: 1692153221:0;gp
+: 1692155477:0;npm install aws-serversless-express
+: 1692155487:0;npm install aws-serverless-express
+: 1692156311:0;gst
+: 1692156444:0;amp api
+: 1692156514:0;amp api update
+: 1692156603:0;amp api remove
+: 1692156623:0;amp add api
+: 1692157992:0;npm i -s  body-parser cors compression @vendia/serverless-express ejs
+: 1692158007:0;cat package.json
+: 1692158065:0;code .
+: 1692159674:0;gst
+: 1692159703:0;cat package.json
+: 1692159742:0;mkdir views
+: 1692159753:0;touch views/index.ejs
+: 1692159757:0;gst
+: 1692159827:0;gaa
+: 1692159888:0;gcmsg 'adding express serverless code. onoe way of doing an api using aws lambda crap ::ðƒ¿ƒ¹ƒ¤::'
+: 1692159893:0;gp
+: 1692159903:0;amp status
+: 1692159941:0;amp api -h
+: 1692159986:0;amp api remove -h
+: 1692159997:0;amp api remove 
+: 1692160048:0;amp push
+: 1692160797:0;amp api remove
+: 1692160810:0;amp status
+: 1692160829:0;amp push
+: 1692199086:0;gst
+: 1692199251:0;npm run dev
+: 1692199691:0;npm install webpack webpack-cli webpack-dev-server copy-webpack-plugin --save-dev
+: 1692200054:0;npm start
+: 1692200630:0;amplify init
+: 1692201136:0;amp api
+: 1692201155:0;amp console
+: 1692201612:0;amplify pull --appId d13lqvuq7cao32 --envName dev
+: 1692201656:0;la
+: 1692201664:0;la amplify
+: 1692201742:0;amp push
+: 1692202436:0;amplify pull --appId d13lqvuq7cao32 --envName staging
+: 1692202552:0;amp pull
+: 1692202595:0;amp push
+: 1692202610:0;amp
+: 1692202622:0;amp env
+: 1692202681:0;amp console
+: 1692202780:0;amp add api
+: 1692202971:0;weeeeeeee
+: 1692203057:0;????F?
+: 1692264647:0;````````````````````````````
+: 1692264651:0;gst
+: 1692264669:0;gaa
+: 1692264681:0;gcmsg 'hold on till cert is issued'
+: 1692264919:0;../
+: 1692264920:0;la
+: 1692264936:0;la xxx
+: 1692265140:0;invoice-app
+: 1692267310:0;la
+: 1692267314:0;code .
+: 1692324782:0;mkdir ../vofo/dist
+: 1692324787:0;gst
+: 1692341618:0;la
+: 1692341639:0;la amplify
+: 1692342222:0;amplify pull --appId d13lqvuq7cao32 --envName staging
+: 1692342249:0;amp status
+: 1692342263:0;amp upgrade
+: 1692342910:0;amp push --force
+: 1692346306:0;amp configure projhect
+: 1692346766:0;amp add api
+: 1692347410:0;amp 
+: 1692347426:0;amp delete
+: 1692347449:0;la
+: 1692347468:0;amp delete
+: 1692347569:0;la
+: 1692347583:0;rm -rf amplify
+: 1692347590:0;rm -rf src
+: 1692347600:0;la dist
+: 1692347608:0;rm -r dist
+: 1692347620:0;la Tests
+: 1692347626:0;la
+: 1692347633:0;amp init
+: 1692347838:0;amp configure project
+: 1692347908:0;amp add api
+: 1692348137:0;la
+: 1692348144:0;la amplify
+: 1692348199:0;la amplify/backend/api/apiclient
+: 1692348209:0;la amplify/backend/api/apiclient/src
+: 1692348244:0;cat amplify/backend/api/apiclient/src/package.json
+: 1692348392:0;amp push
+: 1692349570:0;aws ec2 describe-availability-zones --region
+: 1692349582:0;aws ec2 describe-availability-zones --region help
+: 1692349594:0;aws configure
+: 1692349681:0;aws ec2 describe-availability-zones --region help
+: 1692349696:0;aws ec2 describe-availability-zones --region us-west-1
+: 1692351142:0;la ~
+: 1692351171:0;mv ~/Downloads/vofoKeyPair.pem ~/.ssh
+: 1692351174:0;gst
+: 1692351472:0;la ~/.ssh
+: 1692351489:0;chmod 400 ~/.ssh/vofoKeyPair.pem
+: 1692351494:0;la ~/.ssh
+: 1692351531:0;ssh -i ubuntu@ec2-54-176-209-138.us-west-1.compute.amazonaws.com
+: 1692351558:0;ssh -i "vofoKeyPair.pem" ubuntu@ec2-54-176-209-138.us-west-1.compute.amazonaws.com
+: 1692351578:0;~/.ssh
+: 1692351583:0;ssh -i "vofoKeyPair.pem" ubuntu@ec2-54-176-209-138.us-west-1.compute.amazonaws.com
+: 1692351705:0;pbcopy < ~/.ssh/vofoKeyPair.pem
+: 1692351712:0;pbpaste
+: 1692351791:0;la ~/.ssh
+: 1692351855:0;pbcopy < ~/.ssh/bunny_rsa.pub
+: 1692366560:0;ssh bunny
+: 1692366602:0;ssh-add ~/.ssh
+: 1692366684:0;chmod 700 ~/.ssh
+: 1692366690:0;ssh-add ~/.ssh
+: 1692366699:0;ssh-add ~/.ssh/*
+: 1692367183:0;chmod 600 ~/.ssh/bunny
+: 1692367193:0;chmod 600 ~/.ssh/bunny_rsa
+: 1692367226:0;chmod 600 ~/.ssh/gh-next_rsa
+: 1692367245:0;chmod 600 ~/.ssh/id_ed25519
+: 1692367261:0;chmod 600 ~/.ssh/raven-pi
+: 1692367285:0;ssh-add ~/.ssh/*
+: 1692367327:0;la
+: 1692367348:0;la ~/.ssh
+: 1692367511:0;chmod 600 ~/.ssh/config
+: 1692367520:0;la ~/.ssh
+: 1692385866:0;ssh -i "vofoKeyPair.pem" ubuntu@ec2-54-176-209-138.us-west-1.compute.amazonaws.com
+: 1692427346:0;172.31.2.189
+: 1692427382:0;sudo -i
+: 1692427394:0;su
+: 1692436333:0;Dgst
+: 1692436337:0;gst
+: 1692437690:0;npm start
+: 1692453605:0;Projects/invoice-app
+: 1692453608:0;gst
+: 1692453610:0;gaa
+: 1692453631:0;gcmsg 'line items and whatnots'
+: 1692453675:0;git config -g -e
+: 1692453687:0;git config -g --edit
+: 1692453714:0;git config --global --edit
+: 1692454083:0;gp
+: 1692454276:0;brew update
+: 1692454313:0;brew upgrade
+: 1692454613:0;brew install gh
+: 1692454656:0;gh auth login
+: 1692454834:0;gp
+: 1692454913:0;gh config set -h github.com git_protocol https
+: 1692454921:0;gp
+: 1692454950:0;,,
+: 1692454953:0;..
+: 1692455070:0;scp ./invoice-app poe@192.168.68.56:~/invoices
+: 1692455104:0;scp ./invoice-app poe@192.168.68.56:~/
+: 1692455127:0;scp -r ./invoice-app poe@192.168.68.56:~/
+: 1692509000:0;brew list
+: 1692509050:0;brew search hue
+: 1692509088:0;brew unistall philips-hue-sync && brew install philips-hue-sync
+: 1692509106:0;brew uninstall philips-hue-sync && brew install philips-hue-sync
+: 1692509660:0;npm start
+: 1692511286:0;brew install philips-hue-sync
+: 1692511335:0;philips-hue-sync
+: 1692511346:0;open hue-sync
+: 1692689705:0;../invoice-app
+: 1692689708:0;gst
+: 1692689713:0;gaa
+: 1692690445:0;gcmsg 'form stuff...\
+'
+: 1692690476:0;git config user.name 'skipzero'
+: 1692690506:0;git config user.email 'skip@zerosquadron.com'
+: 1692690527:0;gc --amend --reset-author
+: 1692690593:0;gp
+: 1692690661:0;gh auth
+: 1692690669:0;gh auth login
+: 1692690681:0;gp
+: 1692694948:0;brew update
+: 1692694981:0;brew upgrade
+: 1692695070:0;nano ~/.zshrc
+: 1692695238:0;la ~
+: 1692695255:0;brew install chezmoi
+: 1692695291:0;..
+: 1692695301:0;chezmoi init
+: 1692695351:0;chezmoi add ~/.zshrc
+: 1692695368:0;chezmoi edit ~/.zshrc
+: 1692695399:0;nano .zshrc
+: 1692695471:0;la
+: 1692695528:0;ssh bunny
+: 1692695553:0;cat .ssh/config
+: 1692695574:0;la .ssh
+: 1692695638:0;man ssh-keychain
+: 1692695711:0;man ssh-add
+: 1692695843:0;ssh-add .ssh/bunny
+: 1692695852:0;ssh-add .ssh/bunny.pub
+: 1692695873:0;ssh bunny
+: 1692696028:0;nano ~/.zshrc
+: 1692696122:0;zsh
+: 1692696147:0;nano ~/.zshrc
+: 1692697455:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+: 1692697505:0;nano .zshrc
+: 1692697544:0;source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+: 1692698084:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+: 1692698210:0;la .oh-my-zsh
+: 1692698221:0;la .oh-my-zsh/custom
+: 1692698228:0;la .oh-my-zsh/custom/plugins
+: 1692698247:0;zshconfig
+: 1692698254:0;nano .zshrc
+: 1692698639:0;zshconfig
+: 1692698643:0;zsh
+: 1692698648:0;zshconfig
+: 1692698662:0;la
+: 1692698671:0;cat .zshrc
+: 1692700073:0;gst
+: 1692700082:0;chezmoi
+: 1692700097:0;la
+: 1692700193:0;la .local/share/chezmoi/dot_zshrc
+: 1692700245:0;chezmoi add .zsh_history
