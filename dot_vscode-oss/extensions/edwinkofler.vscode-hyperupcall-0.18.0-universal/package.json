@@ -1,0 +1,161 @@
+{
+	"name": "vscode-hyperupcall",
+	"displayName": "hyperupcall",
+	"description": "Edwin's vscode extension",
+	"version": "0.18.0",
+	"publisher": "EdwinKofler",
+	"engines": {
+		"vscode": "^1.54.0"
+	},
+	"license": "BSD-3-Clause",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hyperupcall/vscode-hyperupcall"
+	},
+	"bugs": {
+		"url": "https://github.com/hyperupcall/vscode-hyperupcall/issues"
+	},
+	"author": {
+		"name": "Edwin Kofler",
+		"url": "https://edwinkofler.com"
+	},
+	"categories": [],
+	"keywords": [
+		"Linux",
+		"panda",
+		"utils"
+	],
+	"activationEvents": [
+		"onLanguage:env",
+		"workspaceContains:**/*"
+	],
+	"scripts": {
+		"watch": "tsc -w -p ./",
+		"build": "tsc -p ./"
+	},
+	"main": "./build/extension.js",
+	"icon": "images/icon.jpg",
+	"contributes": {
+		"configurationDefaults": {
+			"files.associations": {
+				"**/profiles/*/settings.json": "vscode-settings"
+			}
+		},
+		"languages": [
+			{
+				"id": "vscode-settings",
+				"aliases": [
+					"VSCode Settings",
+					"vscode-settings"
+				],
+				"configuration": "./language-configuration/vscode-settings.language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "vscode-settings",
+				"scopeName": "source.vscode-settings",
+				"path": "./syntaxes/jsonc.tmLanguage.json"
+			}
+		],
+		"commands": [
+			{
+				"command": "sync-env.activateWatchers",
+				"title": "Activate watchers"
+			},
+			{
+				"command": "sync-env.deactivateWatchers",
+				"title": "Deactivate watchers"
+			}
+		],
+		"snippets": [
+			{
+				"path": "./snippets/basalt.code-snippets"
+			},
+			{
+				"language": "desktop",
+				"path": "./snippets/desktop.code-snippets"
+			},
+			{
+				"language": "editorconfig",
+				"path": "./snippets/editorconfig.code-snippets"
+			},
+			{
+				"language": "json",
+				"path": "./snippets/eslint.code-snippets"
+			},
+			{
+				"language": "json",
+				"path": "./snippets/prettier.code-snippets"
+			},
+			{
+				"language": "json",
+				"path": "./snippets/stylelint.code-snippets"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/webpack.code-snippets"
+			},
+			{
+				"language": "json",
+				"path": "./snippets/settings.code-snippets"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "vscgettext.moveToNextUntranslated",
+				"key": "alt+n",
+				"when": "editorTextFocus && resourceLangId == po"
+			},
+			{
+				"command": "vscgettext.moveToPreviousUntranslated",
+				"key": "alt+shift+n",
+				"when": "editorTextFocus && resourceLangId == po"
+			}
+		],
+		"configuration": {
+			"title": "SyncEnv Settings",
+			"properties": {
+				"sync-env.envSource": {
+					"type": "string",
+					"default": ".env",
+					"description": "Specifies which file is the Source file."
+				},
+				"sync-env.envDestination": {
+					"type": [
+						"string",
+						"null",
+						"array"
+					],
+					"default": [
+						".env.example"
+					],
+					"description": "Specifies the Destination file/files."
+				}
+			}
+		}
+	},
+	"devDependencies": {
+		"@types/mocha": "^9.1.1",
+		"@types/node": "^20.4.5",
+		"@types/vscode": "1.54.0",
+		"eslint": "^8.18.0",
+		"eslint-plugin-hyperupcall": "^0.1.0",
+		"prettier": "^3.0.0",
+		"typescript": "^5.1.6"
+	},
+	"dependencies": {
+		"@vscode/vsce": "^2.20.0",
+		"ovsx": "^0.8.2"
+	},
+	"__metadata": {
+		"id": "630bca20-591b-40cb-a74d-c789072ce6a6",
+		"publisherId": "5435e65a-aee0-4be7-9696-5e63844160ac",
+		"publisherDisplayName": "EdwinKofler",
+		"targetPlatform": "universal",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1692691831569,
+		"preRelease": false
+	}
+}

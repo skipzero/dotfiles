@@ -1,0 +1,27 @@
+{
+	"comments": {
+		"lineComment": "!"
+	},
+	"autoClosingPairs": [
+		["^C", "^C"],
+		["{", "}"],
+		["[", "]"],
+		["(", ")"],
+		["\"", "\""],
+		["'", "'"]
+	],
+	"surroundingPairs": [
+		["^C", "^C"],
+		["{", "}"],
+		["[", "]"],
+		["(", ")"],
+		["\"", "\""],
+		["'", "'"]
+	],
+	"folding": {
+		"markers": {
+			"start": "(^interface |^ip dhcp pool |^ssid )",
+			"end": "(^exit|^!)"
+		}
+	}
+}

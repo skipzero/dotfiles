@@ -1,0 +1,20 @@
+{
+	"name": "sort-json-file",
+	"type": "module",
+	"version": "0.1.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "Edwin Kofler <edwin@kofler.dev> (https://edwinkofler.com/)",
+	"license": "MPL-2.0",
+	"dependencies": {
+		"detect-indent": "^7.0.1",
+		"detect-newline": "^4.0.0",
+		"git-hooks-list": "^3.1.0",
+		"is-plain-obj": "^4.1.0",
+		"sort-object-keys": "^1.1.3"
+	}
+}
