@@ -14812,7 +14812,7 @@
 		"sass": "1.65.0",
 		"sass-loader": "13.3.2",
 		"schema-utils": "4.2.0",
-		"sharp": "0.32.4",
+		"sharp": "0.32.6",
 		"svgo": "3.0.2",
 		"terser-webpack-plugin": "5.3.9",
 		"ts-loader": "9.4.4",
