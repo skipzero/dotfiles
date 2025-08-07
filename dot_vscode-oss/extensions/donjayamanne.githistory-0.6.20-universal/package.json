@@ -516,7 +516,7 @@
 		"query-string": "^6.13.7",
 		"reflect-metadata": "^0.1.12",
 		"stack-trace": "0.0.10",
-		"tmp": "0.1.0",
+		"tmp": "0.2.4",
 		"vscode-extension-telemetry": "^0.1.1"
 	},
 	"__metadata": {
